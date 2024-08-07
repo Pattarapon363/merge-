@@ -15,7 +15,7 @@
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type your id-code']"
       />
-     <!-- Name -->
+     <!-- Name --><!-- Name -->
      <q-input
         filled
         v-model="name"
